@@ -1,0 +1,118 @@
+body,html{
+    margin: 0;
+}
+header{
+    background-color: yellowgreen;
+}
+.conteiner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo a{
+    font-size: 50px;
+    color: chartreuse;
+}
+.logo a span{
+    color: aqua;
+    font-weight: 700;
+}
+nav ul li{
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    
+}
+.slider-main{
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+.slider-item{
+    min-height: 440px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    width: 440px;
+    
+}
+.header-drop-down:hover ul {
+    display: block;
+    visibility: visible;
+    text-decoration: none;
+    z-index: 1000;
+  }
+  
+  .drop-down-list li {
+    text-decoration: none;
+    margin-left: 0;
+    background: url(../images/arrow_down.png) no-repeat 92%;
+    padding-right: 23px;
+  }
+  .drop-down-list ul li a{
+    text-decoration: none;
+    margin-top: 1.5rem;
+    text-transform: none;
+  }
+  .slider{
+    background-color: #81e4ed;
+    padding: 20px 0px 10px;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .slider_item{
+    min-height: 440px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .slider_item_title{
+    font-size: 50px;
+    color: white;
+    width: 300px;
+    padding-left: 60px;
+    font-weight: 700;
+    padding-top: 90px;
+  }
+
+  .slick-dots li button{
+    width: 14px;
+    height: 14px;
+    color: #484848;
+    background: rgba(52, 52, 52, 0.5);
+  }
+  .slick-dots li .arrows{
+    width: 14px;
+    height: 14px;
+   
+  }
+
+  .slick-dots li button:before{
+     color: #484848;
+    background: rgba(52, 52, 52, 0.5);
+    border-radius: 50%;
+  }
+
+  .slick-dots li{
+    margin: 0 9px;
+    width: auto;
+    height: auto;
+  }
+
+  .slick-dots li.slick-active button::before{
+    background-color: white;
+  }

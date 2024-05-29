@@ -1,0 +1,12 @@
+div {
+  width: 113px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  }
+  .logo{
+    width: max-content;
+  }
+  
